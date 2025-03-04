@@ -27,7 +27,7 @@ for(let i = 1; i<= 6;i++)
     // DiscoverBtn
     document.getElementById('discoverBtn').addEventListener('click', function (event) {
         event.preventDefault();
-        window.location.href = "/blog.html";
+        window.location.href = "./blog.html";
       });
     // CARD DATE
     // Today Day
