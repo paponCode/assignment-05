@@ -22,11 +22,7 @@ for(let i = 1; i<= 6;i++)
       description.append(desc1);
       console.log(desc1)  
     })
-    function getInnerTextById(id){
-      const value = document.getElementById(id).innerText;
-      const convertedValue = parseFloat(value);
-      return convertedValue;
-    }
+    
     
     // DiscoverBtn
     document.getElementById('discoverBtn').addEventListener('click', function (event) {
